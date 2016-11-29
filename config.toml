@@ -1,6 +1,6 @@
 title =  "IT与法务"
 languageCode = "zh_CN"
-baseurl = "http://choicky.github.io/"
+baseurl = "http://itlaws.cn/"
 theme =  "next"
 MetaDataFormat =  "toml"
 canonifyurls =  true
