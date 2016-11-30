@@ -12,12 +12,12 @@ import subprocess
 __author__ = 'coderzh'
 
 GIT_REPO = [
-    ['origin',  'master', 'git@github.com:choicky/choicky.github.io.git.git'],
+    ['origin',  'master', 'git@github.com:choicky/choicky.github.io.git'],
     # ['gitcafe', 'gh-pages', 'git@gitcafe.com:coderzh/coderzh-hugo-blog.git'],
-    ['coding',  'master', 'git@git.coding.net:choicky/choicky.git'],
+    ['coding',  'coding-pages', 'git@git.coding.net:choicky/choicky.git'],
 ]
 
-DEPLOY_DIR = 'master'
+DEPLOY_DIR = 'tmp_public'
 
 
 class ChDir:
