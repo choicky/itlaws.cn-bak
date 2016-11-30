@@ -17,7 +17,7 @@ GIT_REPO = [
     ['coding',  'master', 'git@git.coding.net:choicky/choicky.git'],
 ]
 
-DEPLOY_DIR = 'master'
+DEPLOY_DIR = 'tmp-public'
 
 
 class ChDir:
