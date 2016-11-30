@@ -16,4 +16,4 @@ title = "关于"
 
 A Personal Blog Powered by [Hugo](https://github.com) & Github(https://github.com).
 
-Thanks to [coderzh](https://github.com/coderzh).
+Thanks to [coderzh](https://github.com/coderzh) for the auto deploy teaching.
