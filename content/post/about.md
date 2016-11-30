@@ -14,6 +14,6 @@ title = "关于"
 
 +++
 
-A Blog Powered by [Hugo](https://github.com) & Github(https://github.com).
+Personal Blog Powered by [Hugo](https://github.com) & Github(https://github.com).
 
 Thanks to [coderzh](https://github.com/coderzh).
