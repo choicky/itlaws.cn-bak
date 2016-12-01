@@ -1,0 +1,6 @@
+[
+  {
+    "id": "hugo-deploy",
+    "execute-command": "/home/choicky/webhook/hugo-deploy.sh"
+  }
+]
