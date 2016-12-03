@@ -7,10 +7,10 @@ canonifyurls =  true
 builddrafts =  false
 PaginatePath =  "p"
 Paginate = 8
-disablePathToLower =  true
+disablePathToLower =  false
 hasCJKLanguage = true
 preserveTaxonomyNames = false
-uglyurls = true
+uglyurls = false
 pygmentsStyle = "monokai"
 pygmentsUseClasses = true
 
