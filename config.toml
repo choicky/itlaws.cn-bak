@@ -10,7 +10,7 @@ Paginate = 8
 disablePathToLower =  true
 hasCJKLanguage = true
 preserveTaxonomyNames = false
-uglyurls = false
+uglyurls = true
 pygmentsStyle = "monokai"
 pygmentsUseClasses = true
 
