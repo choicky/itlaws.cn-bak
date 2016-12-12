@@ -31,7 +31,7 @@ pygmentsUseClasses = true
   Name = "Choicky, 深圳律师"
 
 [Params.Share]
-  #DuoShuo = "itlaws"
+  DuoShuo = "itlaws"
   Baidu = true
 
 [Params.Strings]
