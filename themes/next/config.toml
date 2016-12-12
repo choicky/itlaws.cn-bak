@@ -1,8 +1,8 @@
-title =  "IT与法务"
+title =  "蘭陵N散記"
 languageCode = "zh_CN"
-baseurl = "http://localhost/"
+baseurl = "http://lanlingzi.cn/"
 theme =  "next"
-MetaDataFormat =  "toml"
+MetaDataFormat =  "yaml"
 canonifyurls =  true
 builddrafts =  false
 PaginatePath =  "p"
@@ -15,23 +15,23 @@ pygmentsStyle = "monokai"
 pygmentsUseClasses = true
 
 [Params]
-  Introduce = "IT & Laws"
-  Description = "生命不息，折腾不止"
-  Keywords =  "Choicky,深圳律师,IT与法务,生活印记,专利,商标,刑事,走私,盗窃,民事,合同纠纷"
-  Subtitle = "把握当下，展望未来"
+  Introduce = "Programmer & Architect"
+  Description = "韶华易逝，往昔不再"
+  Keywords =  "蘭陵N散記,兰陵,独立博客,程序员,架构师,个人思考,读书笔记,技术分享,Golang"
+  Subtitle = "一指流沙，程序年华"
   Imglogo = "/img/logo.png"
   AuthorImg = "/img/author.jpg"
   DateFormat = "2006-01-02"
   YearFormat = "2006年"
   MonthFormat = "01-02"
-  BaiduStatsId = "3810cda5a4d6eec6d00cedd4521a7fb1"
+  BaiduStatsId = "0b07433b4ab8d587dae7d34e71973839"
   Fancybox = true
 
 [Author]
-  Name = "Choicky, 深圳律师"
+  Name = "兰陵子"
 
 [Params.Share]
-  #DuoShuo = "itlaws"
+  #DuoShuo = "lanlingzi"
   Baidu = true
 
 [Params.Strings]
@@ -43,50 +43,50 @@ pygmentsUseClasses = true
   Toc = "文章目录"
   SiteInfo = "站点概览"
   Links = "友情链接"
-  Blog = "博文"
+  Blog = "日志"
 
 [[Menu.Main]]
   Name = "首页"
   URL = "/"
-  Weight = 1
+  Weight = 0
   Pre = "home"
 [[Menu.Main]]
-  Name = "IT/技术"
+  Name = "技术"
   Pre = "code"
-  URL = "/categories/IT/"
-  Weight = 3
+  URL = "/categories/技术/"
+  Weight = 1
 [[Menu.Main]]
-  Name = "Laws/法务"
-  Pre = "legal"
-  URL = "/categories/Laws/"
+  Name = "感想"
+  Pre = "tint"
+  URL = "/categories/感想/"
+  Weight = 2
+[[Menu.Main]]
+  Name = "笔记"
+  Pre = "book"
+  URL = "/categories/笔记/"
+  Weight = 4
+[[Menu.Main]]
+  Name = "杂记"
+  Pre = "leaf"
+  URL = "/categories/杂记/"
   Weight = 5
 [[Menu.Main]]
-  Name = "Life/生活"
-  Pre = "coffee"
-  URL = "/categories/Life/"
-  Weight = 7
-[[Menu.Main]]
-  Name = "Notes/笔记"
-  Pre = "pencil-square-o"
-  URL = "/categories/Notes/"
-  Weight = 9
-[[Menu.Main]]
-  Name = "Archives/归档"
-  Pre = "tasks"
+  Name = "归档"
+  Pre = "archive"
   URL = "/post/"
-  Weight = 11
+  Weight = 6
 [[Menu.Main]]
-  Name = "AboutMe/关于我"
+  Name = "关于"
   Pre = "user"
   URL = "/about/"
-  Weight = 13
+  Weight = 7
 
 [[Params.Socials]]
   Name = "GitHub"
   Icon = "github"
-  URL = "https://github.com/choicky/"
+  URL = "https://github.com/xtfly/"
 
 [[Params.Socials]]
   Name = "知乎"
   Icon = "globe"
-  URL = "https://www.zhihu.com/people/choicky-zhou"  
+  URL = "https://www.zhihu.com/people/lan-ling-xin-yun"  
