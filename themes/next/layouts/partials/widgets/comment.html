@@ -1,10 +1,10 @@
 
-{{ if and (isset .Site.Params "Share") (isset .Site.Params.Share "DuoShuo") }}
+{{ if and (isset .Site.Params "Comment") (isset .Site.Params.Comment "DuoShuo") }}
 <div class="comments" id="comments">
   <div class="ds-thread" data-thread-key="{{ .Permalink }}"
    data-title="{{ .Title }}" data-url="{{ .Permalink }}"></div>
 <script type="text/javascript">
-var duoshuoQuery = {short_name:"{{ .Site.Params.Share.DuoShuo }}"};
+var duoshuoQuery = {short_name:"{{ .Site.Params.Comment.DuoShuo }}"};
 (function() {
   var ds = document.createElement('script');
   ds.type = 'text/javascript';ds.async = true;
@@ -17,7 +17,7 @@ var duoshuoQuery = {short_name:"{{ .Site.Params.Share.DuoShuo }}"};
 </div>
 {{ end }}
 
-{{ if and (isset .Site.Params "Share") (isset .Site.Params.Share "Disqus") }}
+{{ if and (isset .Site.Params "Comment") (isset .Site.Params.Comment "Disqus") }}
 <div class="comments" id="comments">
 <div id="disqus_thread"></div>
 <script>
