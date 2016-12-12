@@ -34,6 +34,13 @@ pygmentsUseClasses = true
   #DuoShuo = "itlaws"
   Baidu = true
 
+[Params.Comment]
+  DuoShuo = "itlaws"
+  #Disqus = "itlaws"
+
+[params]
+  duoshuoShortname = "itlaws"
+
 [Params.Strings]
   Search = "搜索"
   Categories = "分类"
