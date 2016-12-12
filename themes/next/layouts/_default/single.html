@@ -23,10 +23,6 @@
      {{ partial "widgets/baidushare.html" .}}
      {{ partial "widgets/duoshuoshare.html" .}}
      {{ partial "widgets/comment.html" .}}
-	 {{ if and (isset .Site.Params "duoshuoShortname") (ne .Site.Params.duoshuoShortname"") }}
-                <h2>Comments</h2>
-                {{ partial "duoshuo" . }}
-            {{ end }}
     </footer>
   </article>
 </section>
